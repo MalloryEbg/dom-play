@@ -16,9 +16,9 @@ function highlightActor(actor){
     
     for(const mySpan of spans){
         if(actor == mySpan.dataset.actor){
-            mySpan.style.backgroundColor='seashell';
+            mySpan.style.backgroundColor='#89cff0';
         }else{
-            mySpan.style.backgroundColor='cadetblue';
+            mySpan.style.backgroundColor='#ffbe00';
         }
     }
     // alert("I'm " + actor);
